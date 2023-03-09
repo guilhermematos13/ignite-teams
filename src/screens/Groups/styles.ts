@@ -2,5 +2,6 @@ import styled from "styled-components/native";
 
 export const Container = styled.View`
     flex: 1;
-    background: ${props => props.theme.COLORS.GRAY_500};
+    background: ${props => props.theme.COLORS.GRAY_600};
+    padding: 24px;
 `
